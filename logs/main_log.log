@@ -1,35 +1,427 @@
-[32mSUCCESS:[0m  === Lab1 initialized === 
-[32mSUCCESS:[0m  === Lab1 initialized === 
-[32mSUCCESS:[0m  === Lab1 initialized === 
-[32mSUCCESS:[0m  === Lab1 initialized === 
-[32mSUCCESS:[0m  === Lab1 initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd ' into ./lab_1/test_file
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 180
+[36mTEST:[0m bit_string: 180
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'iserted kek' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
-[32mSUCCESS:[0m Inserting 'abcdefghiklmnopqrstuvwxyz' into ./lab_1/test_file
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[36mTEST:[0m  + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m йo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m йoйooooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m йoйoooooйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m йoйoooooйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m йoйoooooйoйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m йoйoooooйoйoйoйooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m йoйoooooйoйoйoйoooйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m йoйoooooйoйoйoйoooйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m йoйoooooйoйoйoйoooйoйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m йoйoooooйoйoйoйoooйoйoйoйooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[36mTEST:[0m j = 0  + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 3 йo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 10 йoйooooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 13 йoйoooooйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 16 йoйoooooйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 19 йoйoooooйoйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 24 йoйoooooйoйoйoйooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 27 йoйoooooйoйoйoйoooйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 30 йoйoooooйoйoйoйoooйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 33 йoйoooooйoйoйoйoooйoйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 38 йoйoooooйoйoйoйoooйoйoйoйooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[36mTEST:[0m j = 0  + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 3 йo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 10 йoйooooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 13 йoйoooooйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 16 йoйoooooйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 19 йoйoooooйoйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 24 йoйoooooйoйoйoйooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 27 йoйoooooйoйoйoйoooйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 30 йoйoooooйoйoйoйoooйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 33 йoйoooooйoйoйoйoooйoйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 38 йoйoooooйoйoйoйoooйoйoйoйooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[36mTEST:[0m j = 0  + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 3 йo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 10 йoйooooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 13 йoйoooooйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 16 йoйoooooйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 19 йoйoooooйoйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 24 йoйoooooйoйoйoйooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 27 йoйoooooйoйoйoйoooйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 30 йoйoooooйoйoйoйoooйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 33 йoйoooooйoйoйoйoooйoйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 38 йoйoooooйoйoйoйoooйoйoйoйooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[36mTEST:[0m j = 0  + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 2 й + й + oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 8 ййoooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 10 ййooooй + й + oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 12 ййooooйй + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 14 ййooooййй + й + oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 18 ййooooййййoo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 20 ййooooййййooй + й + oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 22 ййooooййййooйй + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 24 ййooooййййooййй + й + oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 28 ййooooййййooййййoo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[36mTEST:[0m j = 0  + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 3 йo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 10 йoйooooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 13 йoйoooooйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 16 йoйoooooйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 19 йoйoooooйoйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 24 йoйoooooйoйoйoйooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 27 йoйoooooйoйoйoйoooйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 30 йoйoooooйoйoйoйoooйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 33 йoйoooooйoйoйoйoooйoйoйo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 38 йoйoooooйoйoйoйoooйoйoйoйooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[36mTEST:[0m j = 0  + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 2 �o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 8 �o�ooooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 10 �o�ooooo�o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 12 �o�ooooo�o�o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 14 �o�ooooo�o�o�o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 18 �o�ooooo�o�o�o�ooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 20 �o�ooooo�o�o�o�ooo�o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 22 �o�ooooo�o�o�o�ooo�o�o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 24 �o�ooooo�o�o�o�ooo�o�o�o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 28 �o�ooooo�o�o�o�ooo�o�o�o�ooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 208
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[36mTEST:[0m j = 0  + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 2 �o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 8 �o�ooooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 10 �o�ooooo�o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 12 �o�ooooo�o�o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 14 �o�ooooo�o�o�o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 18 �o�ooooo�o�o�o�ooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 20 �o�ooooo�o�o�o�ooo�o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 22 �o�ooooo�o�o�o�ooo�o�o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 24 �o�ooooo�o�o�o�ooo�o�o�o + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[36mTEST:[0m j = 28 �o�ooooo�o�o�o�ooo�o�o�o�ooo + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 1086
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[36mTEST:[0m j = 0  + й + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 1086
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 1086
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 1086
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 1099
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'asd' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 1099
+[36mTEST:[0m available_bit_count: 180
+[36mTEST:[0m bit_string: 110000111100111100100
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'ultrakek' into ./lab_1/test_file
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'ultrakek' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 111
+[36mTEST:[0m available_bit_count: 25
+[31mERROR:[0m Iserting text is too long! It contains 56 bytes, when text can contain only 25 bits.
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'ultrakek' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 111
+[36mTEST:[0m available_bit_count: 102
+[36mTEST:[0m bit_string: 11101011101100111010011100101100001110101111001011101011
 

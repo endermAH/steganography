@@ -13,3 +13,10 @@ class core:
             self.logfile.write(LOG_TYPE[type] + ' ' + str(msg) + '\n\r')
             self.logfile.close()
             print(LOG_TYPE[type] + ' ' + str(msg))
+
+    def str_to_bit(self, string):
+        bit_string = ''
+        for i in string :
+            bit_string += ''.join(format(ord(i), 'b'))
+
+        return bit_string
