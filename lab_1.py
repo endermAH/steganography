@@ -38,7 +38,7 @@ class language_swap:
         # Initialize inserting
 
         self.steg_core.log('SUCCESS', 'Inserting \'' + str(insert_text) + '\' into ' + str(file_path))
-        inserted_file_name = file_path + '_inserted_' + insert_text[0:4]
+        inserted_file_name = file_path + '_swap_inserted_' + insert_text[0:4]
 
         # Get contents to insert
 
@@ -133,3 +133,33 @@ class language_swap:
             secret_text += chr(self.steg_core.bit_str_to_int(bit_string[i-char_bit_len:i]))
 
         self.steg_core.log('SUCCESS', 'Secret text: ' + secret_text)
+
+class space_method:
+    steg_core = 'empty class'
+
+    def __init__(self):
+        self.steg_core = steganography.core()
+        self.steg_core.log('SUCCESS', ' === Lab1 language swap method initialized === ')
+
+    def insert_text(self, file_path, insert_text):
+
+        # Get contents to insert
+
+        inserting_file = open(file_path, 'r')
+        inserting_contents = inserting_file.read().decode('utf-8')
+
+        # Initialize inserting
+
+        self.steg_core.log('SUCCESS', 'Inserting \'' + str(insert_text) + '\' into ' + str(file_path))
+        inserted_file_name = file_path + '_space_inserted_' + insert_text[0:4]
+
+        # Check if inserting text is too long
+
+        available_bit_count = sum(1 for line in inserting_file)
+        inserting_file.close()
+
+        self.steg_core.log('TEST', 'available_bit_count: ' + str(available_bit_count))
+
+        if ( available_bit_count < len(bit_string) + self.service_symbol_count ):
+            self.steg_core.log('ERROR', 'Iserting text is too long! It contains ' + str(len(bit_string)) + ' bytes, when text can contain only ' + str(available_bit_count) + ' bits.')
+            return 0
