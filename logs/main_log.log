@@ -521,4 +521,116 @@ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 [32mSUCCESS:[0m  === Lab1 language swap method initialized === 
 [32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_inserted_ultr
 [32mSUCCESS:[0m Secret text: ultrakek
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 0
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 0
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 0
+[31mERROR:[0m Iserting text is too long! It contains 49 bytes, when text can contain only 0 bits.
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 0
+[31mERROR:[0m Iserting text is too long! It contains 49 bits, when text can contain only 0 bits.
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 0
+[31mERROR:[0m Iserting text is too long! It contains 49 bits, when text can contain only 0 bits.
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m Secret text: megalul
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_inserted_ultr
+[32mSUCCESS:[0m Secret text: ultrakek
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m Secret text: megalul
 
