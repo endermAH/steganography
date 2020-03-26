@@ -88,6 +88,8 @@ class language_swap:
 
     def get_secret_text(self, file_path, lang):
 
+        self.steg_core.log('SUCCESS', 'Getting secret text from ' + str(file_path))
+
         # Get contents from file with secret text
 
         file = open(file_path, 'r')

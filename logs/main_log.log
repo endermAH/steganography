@@ -516,4 +516,9 @@ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 [36mTEST:[0m Bit letter: 111
 [36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
 [32mSUCCESS:[0m Secret text: ultrakek
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Secret text: ultrakek
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_inserted_ultr
+[32mSUCCESS:[0m Secret text: ultrakek
 
