@@ -38,7 +38,7 @@ class language_swap:
         # Initialize inserting
 
         self.steg_core.log('SUCCESS', 'Inserting \'' + str(insert_text) + '\' into ' + str(file_path))
-        inserted_file_name = file_path + '_inserted_' + insert_text[0:4] + '_' + str(datetime.datetime.fromtimestamp(time.time()))
+        inserted_file_name = file_path + '_inserted_' + insert_text[0:4]
 
         # Get contents to insert
 
@@ -82,6 +82,52 @@ class language_swap:
                     counter += 1;
 
 
-        changed_file = open(inserted_file_name, 'a')
+        changed_file = open(inserted_file_name, 'w')
         changed_file.write(inserting_contents.encode('utf-8'))
         changed_file.close()
+
+    def get_secret_text(self, file_path, lang):
+
+        # Get contents from file with secret text
+
+        file = open(file_path, 'r')
+        contents = file.read().decode('utf-8')
+        file.close()
+
+        # Detect 1 letter
+
+        bit_letter = ''
+
+        for i in contents:
+            if ( (i != self.en_symbol) and (i != self.ru_symbol) ):
+                if ( ord(i) < 128 ):
+                    bit_letter = self.en_symbol
+                else:
+                    bit_letter = self.ru_symbol
+
+        # Getting secret bit string
+
+        bit_string = ''
+
+        for i in range(0,len(contents)):
+            if (contents[i] == self.en_symbol or contents[i] == self.ru_symbol):
+                if ( contents[i] == bit_letter ):
+                    bit_string += '1'
+                else:
+                    bit_string += '0'
+
+        # Get string
+
+        secret_text = ''
+
+        if ( lang == 'en' ):
+            char_bit_len = 7
+        else:
+            char_bit_len = 8
+
+        for i in range(char_bit_len, len(bit_string), char_bit_len):
+            if ((bit_string[i-char_bit_len:i]) == '0000000'):
+                break
+            secret_text += chr(self.steg_core.bit_str_to_int(bit_string[i-char_bit_len:i]))
+
+        self.steg_core.log('SUCCESS', 'Secret text: ' + secret_text)

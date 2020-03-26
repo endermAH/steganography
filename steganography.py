@@ -20,3 +20,13 @@ class core:
             bit_string += ''.join(format(ord(i), 'b'))
 
         return bit_string
+
+    def bit_str_to_int(self, bit_str):
+        i = len(bit_str)-1
+        result = 0
+        while i >= 0 :
+            # print('bit =' + bit_str[i] +'+='+str(int(bit_str[i]) * 2^(len(bit_str)-i-1)))
+            result += int(bit_str[i]) * pow(2,(len(bit_str)-i-1))
+            i -= 1
+
+        return result

@@ -424,4 +424,96 @@ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 [36mTEST:[0m detected symbol: 111
 [36mTEST:[0m available_bit_count: 102
 [36mTEST:[0m bit_string: 11101011101100111010011100101100001110101111001011101011
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m Inserting 'ultrakek' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 111
+[36mTEST:[0m available_bit_count: 102
+[36mTEST:[0m bit_string: 11101011101100111010011100101100001110101111001011101011
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit string: 000101000100110001011000110100111100010100001101000101001111111111111111111111111111111111111111111111
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 1086
+[36mTEST:[0m Bit string: 000101000100110001011000110100111100010100001101000101001111111111111111111111111111111111111111111111
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m Secret text: 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m Secret text: 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m Secret text: 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m Secret text: 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m Secret text: 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m Secret text: 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m Secret text: 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m Secret text: ultrakek      
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m Secret text: ultrakek
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m Secret text: ultrakek      
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m Secret text: ultrakek      
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[36mTEST:[0m Bit letter: 111
+[36mTEST:[0m Bit string: 111010111011001110100111001011000011101011110010111010110000000000000000000000000000000000000000000000
+[32mSUCCESS:[0m Secret text: ultrakek
 
