@@ -86,6 +86,8 @@ class language_swap:
         changed_file.write(inserting_contents.encode('utf-8'))
         changed_file.close()
 
+        self.steg_core.log('SUCCESS', 'Text successfully inserted!')
+
     def get_secret_text(self, file_path, lang):
 
         self.steg_core.log('SUCCESS', 'Getting secret text from ' + str(file_path))
@@ -129,7 +131,7 @@ class space_method:
 
     def __init__(self):
         self.steg_core = steganography.core()
-        self.steg_core.log('SUCCESS', ' === Lab1 language swap method initialized === ')
+        self.steg_core.log('SUCCESS', ' === Lab1 space method initialized === ')
 
     def insert_text(self, file_path, insert_text):
 
@@ -175,4 +177,74 @@ class space_method:
         print(bit_string)
 
         secret_text = self.steg_core.bit_str_to_text(bit_string, lang)
+        self.steg_core.log('SUCCESS', 'Secret text: ' + secret_text)
+
+class spec_symbol_method:
+
+    def __init__(self):
+        self.steg_core = steganography.core()
+        self.steg_core.log('SUCCESS', ' === Lab1 spec symbol method initialized === ')
+
+    def insert_text(self, file_path, insert_text):
+
+        # Initialize inserting
+
+        self.steg_core.log('SUCCESS', 'Inserting \'' + str(insert_text) + '\' into ' + str(file_path))
+        inserted_file_name = file_path + '_spec_inserted_' + insert_text[0:4]
+
+        # Check if inserting text is too long
+
+        file = open(file_path, 'r')
+        file_contents = file.read()
+        file.close()
+
+        available_bit_count = 0
+
+        bit_string = self.steg_core.str_to_bit(insert_text)
+        for i in file_contents:
+            if ( i == '-' ):
+                available_bit_count += 1
+
+        self.steg_core.log('TEST', 'available_bit_count: ' + str(available_bit_count))
+
+        if ( available_bit_count < len(bit_string) ):
+            self.steg_core.log('ERROR', 'Iserting text is too long! It contains ' + str(len(bit_string)) + ' bits, when text can contain only ' + str(available_bit_count) + ' bits.')
+            return 0
+
+        # Insert secret text
+
+        new_file = open(inserted_file_name, 'w')
+
+        file_contents = file_contents.decode('utf-8')
+
+        i = 0
+        for j in range(0,len(file_contents)):
+            if ( file_contents[j] == '-' and file_contents[j+1] == '-' ):
+                if ( bit_string[i] == '1' ):
+                    file_contents = file_contents[0:j+1] + '–'.decode('utf-8') + file_contents[j+2:]
+                i += 1
+                if ( i >= len(bit_string) ): break
+
+        changed_file = open(inserted_file_name, 'w')
+        changed_file.write(file_contents.encode('utf-8'))
+        changed_file.close()
+
+    def get_secret_text(self, file_path, lang):
+
+        self.steg_core.log('SUCCESS', 'Getting secret text from ' + str(file_path))
+
+        file = open(file_path, 'r')
+        contents = file.read().decode('utf-8')
+        file.close()
+
+        bit_string = ''
+
+        for i in range(0,len(contents)):
+            if (contents[i] == '-' and contents[i+1] == '-'):
+                bit_string += '0'
+            if (contents[i] == '-' and contents[i+1] == '–'.decode('utf-8')):
+                bit_string += '1'
+
+        secret_text = self.steg_core.bit_str_to_text(bit_string, lang)
+
         self.steg_core.log('SUCCESS', 'Secret text: ' + secret_text)

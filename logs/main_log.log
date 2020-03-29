@@ -633,4 +633,124 @@ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 [32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
 [36mTEST:[0m available_bit_count: 68
 [32mSUCCESS:[0m Secret text: megalul
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'obaserver' into test_file_2
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'obaserver' into ./lab_1/test_file_2
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'obaserver' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 18
+[31mERROR:[0m Iserting text is too long! It contains 63 bits, when text can contain only 18 bits.
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_2_spec_inserted_obse
+[32mSUCCESS:[0m Secret text: 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_2_spec_inserted_obse
+[32mSUCCESS:[0m Secret text: observer
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_2_spec_inserted_obse
+[32mSUCCESS:[0m Secret text: observer
 
