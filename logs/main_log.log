@@ -753,4 +753,138 @@ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 [36mTEST:[0m available_bit_count: 2092
 [32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_2_spec_inserted_obse
 [32mSUCCESS:[0m Secret text: observer
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'ultrakek' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 111
+[36mTEST:[0m available_bit_count: 102
+[36mTEST:[0m bit_string: 11101011101100111010011100101100001110101111001011101011
+[32mSUCCESS:[0m Text successfully inserted!
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_inserted_ultr
+[32mSUCCESS:[0m Secret text: ultrakek
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[32mSUCCESS:[0m Secret text: megalul
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_2_spec_inserted_obse
+[32mSUCCESS:[0m Secret text: observer
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'ultrakek' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 111
+[36mTEST:[0m available_bit_count: 102
+[36mTEST:[0m bit_string: 11101011101100111010011100101100001110101111001011101011
+[32mSUCCESS:[0m Text successfully inserted!
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_inserted_ultr
+[32mSUCCESS:[0m Secret text: ultrakek
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[36mTEST:[0m bit_string: 1101101110010111001111100001110110011101011101100
+[32mSUCCESS:[0m Secret text: megalul
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_2_spec_inserted_obse
+[32mSUCCESS:[0m Secret text: observer
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'ultrakek' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 111
+[36mTEST:[0m available_bit_count: 102
+[36mTEST:[0m bit_string: 11101011101100111010011100101100001110101111001011101011
+[32mSUCCESS:[0m Text successfully inserted!
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_inserted_ultr
+[32mSUCCESS:[0m Secret text: ultrakek
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[36mTEST:[0m bit_string: 1101101110010111001111100001110110011101011101100
+[32mSUCCESS:[0m Secret text: megalul
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_2_spec_inserted_obse
+[32mSUCCESS:[0m Secret text: observer
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'ultrakek' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 111
+[36mTEST:[0m available_bit_count: 102
+[36mTEST:[0m bit_string: 11101011101100111010011100101100001110101111001011101011
+[32mSUCCESS:[0m Text successfully inserted!
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_inserted_ultr
+[32mSUCCESS:[0m Secret text: ultrakek
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[36mTEST:[0m bit_string: 1101101110010111001111100001110110011101011101100
+[32mSUCCESS:[0m Secret text: megalul
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_2_spec_inserted_obse
+[32mSUCCESS:[0m Secret text: observer
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'ultrakek' into ./lab_1/test_file
+[36mTEST:[0m detected symbol: 111
+[36mTEST:[0m available_bit_count: 102
+[36mTEST:[0m bit_string: 11101011101100111010011100101100001110101111001011101011
+[32mSUCCESS:[0m Text successfully inserted!
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_inserted_ultr
+[32mSUCCESS:[0m Secret text: ultrakek
+[32mSUCCESS:[0m Inserting 'megalul' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[36mTEST:[0m bit_string: 1101101110010111001111100001110110011101011101100
+[32mSUCCESS:[0m Secret text: megalul
+[32mSUCCESS:[0m Inserting 'observer' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_2_spec_inserted_obse
+[32mSUCCESS:[0m Secret text: observer
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'Evgeny' into ./lab_1/test_file_2
+[36mTEST:[0m available_bit_count: 2092
+[32mSUCCESS:[0m Getting secret text from ./lab_1/test_file_2_spec_inserted_obse
+[32mSUCCESS:[0m Secret text: observer
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'Evgeny' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[36mTEST:[0m bit_string: 100010111101101100111110010111011101111001
+[32mSUCCESS:[0m Secret text: megalul
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'Evgeny' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[36mTEST:[0m bit_string: 100010111101101100111110010111011101111001
+[32mSUCCESS:[0m Secret text: Evgeny
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'Evgeny' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[36mTEST:[0m bit_string: 100010111101101100111110010111011101111001
+[32mSUCCESS:[0m Secret text: Evgeny
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'Evgeny' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[36mTEST:[0m bit_string: 100010111101101100111110010111011101111001
+[32mSUCCESS:[0m Secret text: Evgeny
+[32mSUCCESS:[0m  === Lab1 language swap method initialized === 
+[32mSUCCESS:[0m  === Lab1 space method initialized === 
+[32mSUCCESS:[0m  === Lab1 spec symbol method initialized === 
+[32mSUCCESS:[0m Inserting 'Evgeny' into ./lab_1/test_file
+[36mTEST:[0m available_bit_count: 68
+[36mTEST:[0m bit_string: 100010111101101100111110010111011101111001
+[32mSUCCESS:[0m Secret text: Evgeny
 

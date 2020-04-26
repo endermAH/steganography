@@ -153,6 +153,8 @@ class space_method:
 
         # Insert secret text
 
+        self.steg_core.log('TEST', 'bit_string: ' + bit_string)
+        
         new_file = open(inserted_file_name, 'w')
 
         i = 0
@@ -173,8 +175,6 @@ class space_method:
                 bit_string += '1'
             else:
                 bit_string += '0'
-
-        print(bit_string)
 
         secret_text = self.steg_core.bit_str_to_text(bit_string, lang)
         self.steg_core.log('SUCCESS', 'Secret text: ' + secret_text)
