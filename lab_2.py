@@ -67,7 +67,7 @@ if __name__ == "__main__":
     m_lsb = lsb()
     img = m_lsb.insert_text(
         image='lab_2/dog.bmp',
-        text='Hiolesa'
+        text='helloworld'
     )
     secret_text = m_lsb.get_secret_text(image=img, lang='en')
     print(secret_text)
