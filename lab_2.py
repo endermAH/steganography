@@ -1,5 +1,10 @@
 from steganography import core
 from PIL import Image
+from math import log10, sqrt
+import cv2
+import numpy as np
+import pylab
+from matplotlib import mlab
 
 
 class lsb(core):
@@ -17,6 +22,14 @@ class lsb(core):
             return color
         else:
             return (color // 2) * 2 + int(bit_string[pos])
+
+    def PSNR(self, original, compressed):
+        mse = np.mean((original - compressed) ** 2)
+        if(mse == 0):
+            return 100
+        max_pixel = 255.0
+        psnr = 20 * log10(max_pixel / sqrt(mse))
+        return psnr
 
     def insert_text(self, image, text):
         img = Image.open(image)
@@ -60,14 +73,41 @@ class lsb(core):
 
         return self.bit_str_to_text(bit_string, lang)
 
+    def analys(self):
+        text = 'analys'
+        img = self.insert_text(
+            image='lab_2/dog.bmp',
+            text=text
+        )
+        original = cv2.imread("lab_2/dog.bmp")
+        compressed = cv2.imread("lab_2/dog_with_anal.bmp", 1)
+        PSNR_value = self.PSNR(original, compressed)
+        print("PSNR value is " + str(PSNR_value) + " dB")
+
+        xlist = []
+        ylist = []
+        for i in range(200):
+            img = self.insert_text(
+                image='lab_2/dog.bmp',
+                text=text * i
+            )
+            if not(img):
+                print('stopped: ' + i)
+                break
+            compressed = cv2.imread("lab_2/dog_with_anal.bmp", 1)
+            PSNR_value = self.PSNR(original, compressed)
+            xlist.append(i)
+            ylist.append(PSNR_value)
+
+        pylab.plot(xlist, ylist)
+        pylab.savefig('lab_2/graph')
+
 
 if __name__ == "__main__":
 
     # Init lsb class
     m_lsb = lsb()
-    img = m_lsb.insert_text(
-        image='lab_2/dog.bmp',
-        text='helloworld'
-    )
-    secret_text = m_lsb.get_secret_text(image=img, lang='en')
-    print(secret_text)
+
+    m_lsb.analys()
+
+    m_lsb.get_secret_text(m_lsb.insert_text('lab_2/dog.bmp', 'hello'), 'en')

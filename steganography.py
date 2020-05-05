@@ -40,7 +40,7 @@ class core:
             char_bit_len = 8
 
         for i in range(char_bit_len, len(bit_string), char_bit_len):
-            if ((bit_string[i-char_bit_len:i]) == '0000000'):
+            if ((bit_string[i - char_bit_len:i]) == '0000000'):
                 break
             secret_text += chr(self.bit_str_to_int(bit_string[i-char_bit_len:i]))
 
