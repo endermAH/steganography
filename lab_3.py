@@ -10,7 +10,7 @@ class dct(core):
 
     block_size = 8
     banned_factors = []
-    inserting_factors = block_size ** 2 - len(banned_factors)
+    inserting_factors = (block_size ** 2) - len(banned_factors)
 
     def __init__(self):
         self.log('SUCCESS', ' === Lab3 DCT method initialized === ')
@@ -26,10 +26,10 @@ class dct(core):
         """ Get PSNR and RMSE using """
         mse = np.mean((original - compressed) ** 2)
         if mse == 0:
-            return 100
+            return "infinity", 0.0
         max_pixel = 255.0
         PSNR = 20 * math.log10(max_pixel / math.sqrt(mse))
-        RMSE = mse ** 0.5
+        RMSE = math.sqrt(mse)
         return PSNR, RMSE
 
     def get_sygma(self, value):
@@ -124,6 +124,9 @@ class dct(core):
                     cur_pos += 1
                     # if cur_pos < len(bit_str):
                     #     self.log("TEST", "Bit: %s, Set %s -> %s" % (bit_str[cur_pos-1], old_value, inserted_block[y][x]))
+                else:
+                    old_value = block[y][x]
+                    inserted_block[y].append(int(round(old_value)))
                 f_number += 1
         return cur_pos, inserted_block
 
@@ -203,32 +206,30 @@ class dct(core):
                         factor = factor_block[y][x]
                         bit = int(round(factor)) % 2
                         bit_str += str(bit)
-                        # if test_counter < 2:
-                        #     self.log("TEST", "Get %s from %s" % (bit, factor_block[y][x]))
                     cur_pos += 1
-        # self.log("TEST", "Bit string from image: %s" % bit_str)
         text = self.bit_str_to_text(bit_str, lang)
         return text, bit_str
 
     def analys(self):
         """ Analyse algorithm """
         text = 'anal'
-        img = self.insert_text(
+        img, bit_ins = self.insert_text(
             image='lab_3/dog.bmp',
             text=text
         )
         original = cv2.imread("lab_3/dog.bmp")
-        compressed = cv2.imread(img, 1)
+        compressed = cv2.imread(img)
         PSNR_value, RMSE_value = self.PSNR(original, compressed)
-        self.log("SUCCESS", "PSNR value is " + str(PSNR_value) + " dB")
-        self.log("SUCCESS", "RMSE value is " + str(RMSE_value) + " dB")
+        # self.log("SUCCESS", "PSNR value is " + str(PSNR_value) + " dB")
+        # self.log("SUCCESS", "RMSE value is " + str(RMSE_value) + "")
 
         xlist = []
-        ylist = []
-        for i in range(200):
-            img = self.insert_text(
+        ylist_psnr = []
+        ylist_rmse = []
+        for i in range(100):
+            img, bit_ins = self.insert_text(
                 image='lab_3/dog.bmp',
-                text=text * i,
+                text=text * (i ** i),
             )
             if not(img):
                 print('stopped: %s' % i)
@@ -237,15 +238,18 @@ class dct(core):
             compressed = cv2.imread(img, 1)
             PSNR_value, RMSE_value = self.PSNR(original, compressed)
             xlist.append(i)
-            ylist.append(PSNR_value)
+            ylist_psnr.append(PSNR_value)
+            ylist_rmse.append(RMSE_value)
 
-        pylab.plot(xlist, ylist)
-        pylab.savefig('lab_3/graph')
+        pylab.plot(xlist, ylist_psnr)
+        pylab.savefig('lab_3/graph_psnr')
+        pylab.plot(xlist, ylist_rmse)
+        pylab.savefig('lab_3/graph_rmse')
 
 
 if __name__ == "__main__":
     test = dct()
-    img, bit_ins = test.insert_text('lab_3/dog.bmp', 'hello')
+    img, bit_ins = test.insert_text('lab_3/dog.bmp', 'ilovesteganography')
     text, bit_get = test.get_text(img, 'en')
     test.log("SUCCESS", "Excluded and inserted bit strings: ")
     g_ch = 0
@@ -263,5 +267,10 @@ if __name__ == "__main__":
     diff_part = float(diff) / len(bit_ins) * 100
     test.log("SUCCESS", bit_ins)
     test.log("SUCCESS", compare_str)
-    test.log("WARNING", 'Difference between inserted and exluded image: %s' % str(diff_part))
-    # test.analys()
+    test.log("WARNING", 'Difference between inserted and exluded image: %s%%' % str(diff_part))
+    original = cv2.imread("lab_3/dog.bmp")
+    compressed = cv2.imread(img, 1)
+    PSNR_value, RMSE_value = test.PSNR(original, compressed)
+    test.log("SUCCESS", 'PSNR value: %f dB' % PSNR_value)
+    test.log("SUCCESS", 'RMSE value: %f' % RMSE_value)
+    test.analys()
