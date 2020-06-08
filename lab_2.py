@@ -40,7 +40,7 @@ class lsb(core):
         bit_string_len = len(bit_string)
         available_space = self.__get_availabel_space(image)
 
-        if (bit_string_len > available_space):
+        if bit_string_len > available_space:
             self.log('ERROR', 'This image is too small to contain this text: {bit_string_len} > {available_space}').format(bit_string_len=bit_string_len, available_space=self.__get_availabel_space(image))
             return False
 
