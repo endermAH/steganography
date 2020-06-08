@@ -44,6 +44,7 @@ class dct(core):
         Fx = self.get_sygma(x)
         Fy = self.get_sygma(y)
         # print(Fx + Fy)
+        sum = 0
         for m in range(8):
             for l in range(8):
                 sum += block[l][m] * math.cos((math.pi * (2 * m + 1) * x)/(2*self.block_size)) * math.cos((math.pi * (2 * l + 1) * y)/(2*self.block_size))
@@ -107,7 +108,7 @@ class dct(core):
         if pos >= len(bit_string):
             return factor
         else:
-            new_factor = float("%s.%s" % (((int(str(factor).split('.')[0]) >> 1 << 1) + int(bit_string[pos])),  str(factor).split('.')[1]))
+            new_factor = (int(round(factor)) >> 1 << 1 )+ int(bit_string[pos])
             return new_factor
 
     def insert_to_block(self, block, bit_str, start_pos):
@@ -180,7 +181,7 @@ class dct(core):
             height_counter = height_counter + 1 if width_counter == 0 else height_counter
 
         img.save(image[0:len(image) - 4] + '_with_' + text[0:4] + '.bmp')
-        return image[0:len(image) - 4] + '_with_' + text[0:4] + '.bmp'
+        return image[0:len(image) - 4] + '_with_' + text[0:4] + '.bmp', bit_string
 
     def get_text(self, image, lang):
         """ Get image and get secret text """
@@ -200,14 +201,14 @@ class dct(core):
                 for x in range(8):
                     if cur_pos not in self.banned_factors:
                         factor = factor_block[y][x]
-                        bit = int(str(factor).split('.')[0]) % 2
+                        bit = int(round(factor)) % 2
                         bit_str += str(bit)
                         # if test_counter < 2:
                         #     self.log("TEST", "Get %s from %s" % (bit, factor_block[y][x]))
                     cur_pos += 1
-        self.log("TEST", "Bit string from image: %s" % bit_str)
+        # self.log("TEST", "Bit string from image: %s" % bit_str)
         text = self.bit_str_to_text(bit_str, lang)
-        return text
+        return text, bit_str
 
     def analys(self):
         """ Analyse algorithm """
@@ -244,5 +245,23 @@ class dct(core):
 
 if __name__ == "__main__":
     test = dct()
-    test.log("SUCCESS", test.get_text(test.insert_text('lab_3/dog.bmp', 'hello'), 'en'))
+    img, bit_ins = test.insert_text('lab_3/dog.bmp', 'hello')
+    text, bit_get = test.get_text(img, 'en')
+    test.log("SUCCESS", "Excluded and inserted bit strings: ")
+    g_ch = 0
+    red = '\033[31m'
+    clear = '\033[0m'
+    compare_str = ""
+    diff = 0
+    for i_ch in bit_ins:
+        if i_ch == bit_get[g_ch]:
+            compare_str += i_ch
+        else:
+            compare_str += '%s%s%s' % (red, bit_get[g_ch], clear)
+            diff += 1
+        g_ch += 1
+    diff_part = float(diff) / len(bit_ins) * 100
+    test.log("SUCCESS", bit_ins)
+    test.log("SUCCESS", compare_str)
+    test.log("WARNING", 'Difference between inserted and exluded image: %s' % str(diff_part))
     # test.analys()
